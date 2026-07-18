@@ -61,6 +61,40 @@ def cat(slug):
 # ============================================================
 ARTICLES = [
     {
+        "slug": "dames-huispakken-comfortabel-thuis",
+        "title": "Dames huispakken: lekker warm en comfortabel thuis",
+        "cat": "thuis-en-sfeer",
+        "date": "2026-07-18", "date_nl": "18 juli 2026", "read": 4,
+        "img": "art-huispakken.svg",
+        "excerpt": "Weinig is zo fijn als thuiskomen en in iets zachts en warms wegkruipen. Een goed huispak maakt van je avond meteen een klein moment van rust.",
+        "body": """
+<p>Er is een moment op de dag dat je thuiskomt, je jas ophangt en het liefst meteen in iets zachts wilt wegkruipen. Je dagkleren uit, je huispak aan. Dat kleine ritueel is het startsein voor ontspanning: je lichaam merkt dat er even niets meer moet.</p>
+
+<h2>Waarom een huispak zo fijn is</h2>
+<p>Een huispak is meer dan losse kleding om in rond te lopen. Het is een signaal aan jezelf dat de dag erop zit. Zachte stof tegen je huid, een ruime pasvorm die nergens knelt, en niets wat je hoeft in te houden. Juist die eenvoud maakt dat je sneller tot rust komt dan in een spijkerbroek die de hele dag om je heen zat.</p>
+
+<h2>Waar je op let bij het kiezen</h2>
+<p>Niet elk huispak voelt hetzelfde, en de stof maakt het grootste verschil. Katoen ademt fijn en blijft het hele jaar door prettig, badstof en velours voelen extra warm en zacht in de koudere maanden, en een lichte tricot is heerlijk in de zomer. Let daarnaast op de pasvorm: een goed huispak zit ruim zonder vormeloos te worden, met een tailleband die niet in je vel snijdt.</p>
+<ul>
+<li><strong>Zomer:</strong> lichte katoen of tricot, korte mouwen of een dunne broek.</li>
+<li><strong>Winter:</strong> badstof, velours of een gebreide kwaliteit die de warmte vasthoudt.</li>
+<li><strong>Tussenseizoen:</strong> een setje in laagjes dat je makkelijk aan- en uittrekt.</li>
+</ul>
+
+<blockquote><p>Comfort is geen luxe maar een vorm van zelfzorg — thuis mag alles even zachter.</p></blockquote>
+
+<h2>Van ochtend tot avond</h2>
+<p>Een huispak hoeft niet alleen voor 's avonds op de bank. Een rustige zondagochtend met koffie en de krant, een dag thuiswerken zonder afspraken, of dat uurtje na het douchen voor het slapengaan: het zijn precies de momenten waarop iets comfortabels je dag zachter maakt. Kies een setje dat er ook nog eens verzorgd uitziet, dan voel je je er zelfs bij een onverwachte videobelafspraak prettig in.</p>
+
+<div class="callout"><p><strong>Kleine tip.</strong> Heb je twee huispakken, dan hoef je nooit te wachten op de was. Eentje aan, eentje in de kast, zo blijft dat fijne gevoel altijd binnen handbereik.</p></div>
+
+<h2>Een mooi huispak vinden</h2>
+<p>Op zoek naar een nieuw exemplaar? Er zijn webshops die zich helemaal richten op <a href="https://loungeweare.com/">dames huispakken</a>, met modellen in verschillende stoffen, kleuren en pasvormen. Zo vind je makkelijker een setje dat bij jou past, bij het seizoen en bij de manier waarop jij het liefst thuis ontspant.</p>
+
+<p>Uiteindelijk draait het om dat ene simpele gevoel: thuiskomen, iets zachts aantrekken en merken dat je schouders zakken. Een goed huispak helpt je daarbij, elke dag opnieuw.</p>
+""",
+    },
+    {
         "slug": "rustige-ochtendroutine-kleine-gewoontes",
         "title": "Een rustige ochtendroutine: 7 kleine gewoontes voor een fijne start",
         "cat": "mindful-leven",

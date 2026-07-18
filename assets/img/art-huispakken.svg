@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<title>huispakken</title>
+<rect x="0" y="0" width="400" height="300" rx="26" fill="#FCEAE2"/>
+<defs><clipPath id="cphuispak"><rect x="0" y="0" width="400" height="300" rx="26"/></clipPath></defs>
+<g clip-path="url(#cphuispak)">
+  <circle cx="58" cy="248" r="92" fill="#E4EADD" opacity="0.7"/>
+  <circle cx="356" cy="44" r="70" fill="#FBE8C9" opacity="0.7"/>
+  <!-- zonnetje -->
+  <g stroke="#38332D" stroke-width="3.4">
+    <circle cx="330" cy="64" r="21" fill="#F2B544"/>
+    <line x1="330" y1="30" x2="330" y2="20"/>
+    <line x1="358" y1="40" x2="366" y2="33"/>
+    <line x1="366" y1="64" x2="376" y2="64"/>
+    <line x1="358" y1="88" x2="366" y2="95"/>
+    <line x1="302" y1="40" x2="294" y2="33"/>
+  </g>
+  <!-- zachte grondschaduw -->
+  <ellipse cx="176" cy="256" rx="120" ry="13" fill="#38332D" opacity="0.06"/>
+  <!-- gevouwen trui (bovenstuk) -->
+  <g stroke="#38332D" stroke-width="3.4">
+    <rect x="86" y="150" width="164" height="58" rx="16" fill="#E98B6F"/>
+    <path d="M150 150 q18 16 36 0" fill="#FCEAE2"/>
+    <line x1="86" y1="179" x2="250" y2="179"/>
+    <path d="M104 160 l14 12"/>
+    <path d="M232 160 l-14 12"/>
+  </g>
+  <!-- gevouwen broek (onderstuk) -->
+  <g stroke="#38332D" stroke-width="3.4">
+    <rect x="104" y="212" width="128" height="46" rx="14" fill="#9FB291"/>
+    <line x1="168" y1="212" x2="168" y2="258"/>
+  </g>
+  <!-- mok met stoom -->
+  <g stroke="#38332D" stroke-width="3.4">
+    <rect x="284" y="176" width="64" height="66" rx="16" fill="#BCD4DD"/>
+    <path d="M348 190 q22 6 0 28" fill="none"/>
+    <path d="M300 160 q8 -10 0 -20" stroke-width="3"/>
+    <path d="M318 160 q8 -10 0 -20" stroke-width="3"/>
+  </g>
+  <!-- kleine hartjes / accenten -->
+  <g stroke="#D2694A" stroke-width="3" fill="#F8DCD0">
+    <path d="M60 120 c-4 -6 -13 -2 -9 5 c2 4 9 8 9 8 c0 0 7 -4 9 -8 c4 -7 -5 -11 -9 -5 z"/>
+  </g>
+  <circle cx="270" cy="120" r="4" fill="#F2B544" stroke="none"/>
+  <circle cx="72" cy="196" r="4" fill="#E98B6F" stroke="none"/>
+</g>
+</svg>
