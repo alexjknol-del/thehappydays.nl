@@ -581,6 +581,26 @@ def favicon():
     return svg(64, 64, "".join(body), "0 0 64 64")
 
 
+def art_microdosering():
+    """Illustratie bij het artikel over de herkomst van de term: een open boek,
+    een vergrootglas en een plantje, in de sfeer van rustig uitzoeken."""
+    rect, clip = panel(AW, AH, SAGESF, (SAGE, 336, 250, 96))
+    body = rect + clip
+    body += g(96, 122, 1.35, journal(SKY))
+    body += g(258, 128, 1.05, plant(BLUSH, SAGE))
+    # vergrootglas
+    body += ('<g transform="translate(236,74)">'
+             f'<circle cx="0" cy="0" r="26" fill="{PAPER}" stroke="{INK}" stroke-width="4"/>'
+             f'<path d="M18,18 L38,38" stroke="{INK}" stroke-width="6" stroke-linecap="round"/>'
+             f'<path d="M-10,-4 A12,12 0 0 1 2,-14" stroke="{SUN}" stroke-width="4" '
+             'fill="none" stroke-linecap="round"/>'
+             '</g>')
+    body += sparkle(74, 70, 9, SUN)
+    body += dot(120, 250, 4.5, CORAL)
+    body += dot(196, 258, 4, SUN)
+    return body
+
+
 # ============================================================
 #  Schrijf alle bestanden
 # ============================================================
@@ -595,6 +615,7 @@ def main():
         "art-opruimen.svg": art_declutter,
         "art-zelfzorg.svg": art_selfcare,
         "art-avondroutine.svg": art_evening,
+        "art-microdosering.svg": art_microdosering,
     }
     for name, fn in arts.items():
         write(name, AW, AH, fn(), title=name.replace("art-", "").replace(".svg", "").replace("-", " "))

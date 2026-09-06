@@ -61,6 +61,45 @@ def cat(slug):
 # ============================================================
 ARTICLES = [
     {
+        "slug": "microdosering-waar-de-term-vandaan-komt",
+        "title": "Microdosering: waar die term vandaan komt en wat er precies mee bedoeld wordt",
+        "cat": "mindful-leven",
+        "date": "2026-09-06", "date_nl": "6 september 2026", "read": 6,
+        "img": "art-microdosering.svg",
+        "excerpt": "De term duikt overal op, van podcasts tot verjaardagen, maar wat er nou eigenlijk mee bedoeld wordt blijft vaag. Een rustige uitleg van de herkomst, zonder beloftes.",
+        "body": """
+<p>Sommige woorden verschijnen zomaar in het dagelijks taalgebruik. Microdosering is er zo een. Het valt in podcasts, in reportages en aan de keukentafel, meestal zonder dat iemand uitlegt waar de term vandaan komt. Dit artikel doet dat wel, en houdt het bij de herkomst en de feiten. Over werking of resultaat staat hier bewust niets, want daarover mag in Nederland niets beweerd worden.</p>
+
+<h2>Een woord uit de jaren tien</h2>
+<p>De term raakte rond 2015 in omloop, nadat een Amerikaanse onderzoeker begon met het verzamelen van ervaringsverslagen. Daarvoor bestond het woord nauwelijks. Wat er sindsdien omheen is ontstaan, is vooral een verhaal: over technologiebedrijven, over creativiteit, over prestatie. Dat verhaal is groter geworden dan de kennis waarop het rust.</p>
+
+<p>Dat is op zichzelf een bekend patroon. Een term wordt opgepikt, herhaald, en gaat na verloop van tijd een eigen leven leiden. Wie er iets over wil weten, komt daardoor eerder anekdotes tegen dan feiten.</p>
+
+<h2>Wat het woord aanduidt</h2>
+<p>Letterlijk gaat het om een verhouding: een fractie van wat als gebruikelijke hoeveelheid geldt, doorgaans genoemd als een tiende tot een twintigste. Meer dan dat zegt de term niet. Er bestaat geen wettelijke definitie, geen genormeerde hoeveelheid en geen erkende methode. Twee mensen die het woord gebruiken, bedoelen dus niet per se hetzelfde.</p>
+
+<blockquote><p>Een populaire term is nog geen omschreven begrip. Wie iets wil begrijpen, begint bij de herkomst en niet bij de verhalen eromheen.</p></blockquote>
+
+<h2>Paddenstoelen en truffels: niet hetzelfde</h2>
+<p>In gesprekken lopen twee producten voortdurend door elkaar. Sinds 2008 staan paddenstoelen met psilocybine in Nederland op lijst II van de Opiumwet. Sclerotia, in de handel truffels genoemd, vielen buiten die aanwijzing en bleven legaal verkrijgbaar. Botanisch zijn het verschillende delen van hetzelfde organisme: het ene groeit onder de grond, het andere erboven.</p>
+
+<p>Die scheiding verklaart waarom het ene product in een winkel ligt en het andere niet. Buiten Nederland gelden weer andere regels, ook binnen Europa, dus meenemen op reis is meestal niet toegestaan. Achtergrond over het onderscheid staat op <a href="https://www.cosmictruffles.nl/microdosering-truffels/">https://www.cosmictruffles.nl/microdosering-truffels/</a>.</p>
+
+<h2>Waarom aanbieders zo weinig zeggen</h2>
+<p>Wie webshops in dit segment bekijkt, valt het op: veel productinformatie, bewaaradvies en een aparte disclaimerpagina, en vrijwel geen tekst over wat er te verwachten valt. Dat is geen terughoudendheid uit bescheidenheid maar een wettelijke verplichting. Uitspraken die suggereren dat iets een aandoening voorkomt, behandelt of geneest, zijn verboden. Ook een winkel als <a href="https://www.cosmictruffles.nl/magic-truffels/">Cosmic Truffles</a> werkt binnen die grens.</p>
+
+<div class="callout"><p><strong>Rustig lezen.</strong> Komt er ergens een stellige belofte langs over een middel, dan is dat het moment om even te vertragen. De vraag is dan niet of het klinkt als iets moois, maar wie het zegt en waarop het gebaseerd is.</p></div>
+
+<h2>Wat er over onderzoek te zeggen valt</h2>
+<p>Er loopt wetenschappelijk onderzoek naar deze stoffen, maar het aantal gecontroleerde studies naar lage hoeveelheden is klein en de uitkomsten lopen uiteen. Bij berichten die iets als aangetoond presenteren, helpen drie vragen: om welk onderzoek gaat het, hoeveel deelnemers waren er, en was er een controlegroep? Zonder die drie blijft er weinig over om op te bouwen.</p>
+
+<h2>Het grotere plaatje</h2>
+<p>Achter de populariteit van dit soort termen zit vaak dezelfde wens: dat er ergens een kortere route bestaat naar meer rust of meer helderheid. Die wens is invoelbaar. Tegelijk is er tot nu toe weinig dat het bestaan van zo een route bevestigt, en dat is precies de reden om nieuwsgierig te blijven maar niet goedgelovig.</p>
+
+<p>Wie medicatie gebruikt of twijfelt, legt de vraag voor aan een arts of apotheker. En verder geldt wat voor de meeste onderwerpen op deze site opgaat: kleine, saaie gewoontes doen op de lange termijn meestal meer dan welke nieuwe term dan ook.</p>
+""",
+    },
+    {
         "slug": "dames-huispakken-comfortabel-thuis",
         "title": "Dames huispakken: lekker warm en comfortabel thuis",
         "cat": "thuis-en-sfeer",
