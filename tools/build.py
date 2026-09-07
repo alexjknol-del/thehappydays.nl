@@ -474,13 +474,21 @@ def build_partners():
         {"name": "Esmée Lifestyle", "url": "https://www.esmeelifestyle.nl/", "initial": "E", "color": "#F2B544",
          "desc": "De lifestyle blog vol geluk van Esmée, met wekelijks meerdere artikelen over geluk, "
                  "business en lifestyle — allemaal geschreven met een positieve twist."},
+        {"name": "Greensoil", "url": "https://greensoil.eu/blog/enzymen-voor-planten/", "initial": "G",
+         "color": "#9FB291", "anchor": "plantenzym",
+         "desc": "Greensoil schrijft over wat er in de grond gebeurt: enzymen, bodemleven en sterke "
+                 "wortels, met uitleg die ook bruikbaar is voor kamerplanten."},
+        {"name": "Desk Express", "url": "https://deskexpress.nl/zit-sta-bureau-180x80/", "initial": "D",
+         "color": "#E29A18", "anchor": "zit sta bureau 180 x 80",
+         "desc": "Desk Express levert in hoogte verstelbare bureaus, zodat afwisselen tussen zitten en "
+                 "staan op een werkdag vanzelf gaat."},
     ]
     phtml = "".join(f'''<div class="partner">
 <div class="partner__badge" style="background:{p['color']}">{p['initial']}</div>
 <div>
 <h3>{esc(p['name'])}</h3>
 <p>{esc(p['desc'])}</p>
-<a class="ext" href="{p['url']}" target="_blank" rel="noopener">Bezoek {esc(p['name'])} {IC_EXT}</a>
+<a class="ext" href="{p['url']}" target="_blank" rel="noopener">{esc(p.get('anchor') or 'Bezoek ' + p['name'])} {IC_EXT}</a>
 </div>
 </div>''' for p in partners)
 
@@ -491,7 +499,7 @@ def build_partners():
 <section class="section" style="padding-top:0">
 <div class="wrap narrow prose" style="margin-bottom:2rem">
 <p class="lede">Op deze plek komen binnenkort onze linkpartners en samenwerkingen te staan: blogs en merken die net als wij geloven in rust, aandacht en alledaags geluk.</p>
-<p>Tot die tijd delen we graag twee toonaangevende Nederlandse leefstijlblogs die we zelf met veel plezier lezen. Ben je op zoek naar nog meer positiviteit en inspiratie? Neem zeker een kijkje.</p>
+<p>Hieronder staan de blogs en websites die we nu uitlichten: twee Nederlandse leefstijlblogs die we zelf met veel plezier lezen, en een paar specialisten rond groen en een prettige werkplek. Ben je op zoek naar nog meer positiviteit en inspiratie? Neem zeker een kijkje.</p>
 </div>
 <div class="wrap"><div class="partner-list">{phtml}</div></div>
 
