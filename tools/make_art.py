@@ -372,6 +372,55 @@ def art_evening():
 # ============================================================
 #  HERO-ILLUSTRATIE (520 x 470)
 # ============================================================
+def cord_ball(color=CORAL, band=CORALDP):
+    """Bol koord met een paar windingen."""
+    o = f'<circle cx="0" cy="0" r="34" fill="{color}" stroke="{INK}" stroke-width="{SW}"/>'
+    o += f'<path d="M-30 -12 C -10 -26, 14 -24, 30 -8" fill="none" stroke="{band}" stroke-width="3"/>'
+    o += f'<path d="M-30 4 C -8 -8, 16 -6, 31 6" fill="none" stroke="{band}" stroke-width="3"/>'
+    o += f'<path d="M-26 18 C -6 8, 14 10, 28 20" fill="none" stroke="{band}" stroke-width="3"/>'
+    o += f'<path d="M30 -8 C 48 2, 52 22, 44 38" fill="none" stroke="{color}" stroke-width="5" stroke-linecap="round"/>'
+    o += f'<path d="M30 -8 C 48 2, 52 22, 44 38" fill="none" stroke="{INK}" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>'
+    return o
+
+
+def braid(color=SAGE, alt=SKY):
+    """Gevlochten bandje van twee strengen."""
+    o = ''
+    for i in range(5):
+        y = i * 22
+        o += (f'<path d="M-26 {y} C -8 {y-14}, 8 {y+14}, 26 {y}" fill="none" '
+              f'stroke="{color}" stroke-width="7" stroke-linecap="round"/>')
+        o += (f'<path d="M-26 {y} C -8 {y+14}, 8 {y-14}, 26 {y}" fill="none" '
+              f'stroke="{alt}" stroke-width="7" stroke-linecap="round"/>')
+    o += f'<circle cx="0" cy="-16" r="7" fill="{PAPER}" stroke="{INK}" stroke-width="{SW}"/>'
+    return o
+
+
+def knot_disc(fill=PAPER):
+    """Ronde knoopschijf met inkepingen."""
+    o = f'<circle cx="0" cy="0" r="30" fill="{fill}" stroke="{INK}" stroke-width="{SW}"/>'
+    o += f'<circle cx="0" cy="0" r="9" fill="{SUN}" stroke="{INK}" stroke-width="2.4"/>'
+    for k in range(8):
+        import math
+        a = math.radians(k * 45)
+        x1, y1 = 24 * math.cos(a), 24 * math.sin(a)
+        x2, y2 = 31 * math.cos(a), 31 * math.sin(a)
+        o += f'<path d="M{x1:.1f} {y1:.1f} L{x2:.1f} {y2:.1f}" stroke="{INK}" stroke-width="2.6" stroke-linecap="round"/>'
+    return o
+
+
+def art_knopen():
+    rect, clip = panel(AW, AH, SAGESF, (SAGE, 320, 246, 104))
+    body = rect + clip
+    body += g(112, 186, 1.0, cord_ball(CORAL, CORALDP))
+    body += g(238, 118, 1.0, braid(SAGE, SKY))
+    body += g(318, 196, 0.9, knot_disc(PAPER))
+    body += sparkle(148, 76, 10, SUN)
+    body += dot(70, 104, 4, CORAL)
+    body += dot(352, 92, 4, SUN)
+    return body
+
+
 def hero_art():
     W, H = 520, 470
     rect, clip = panel(W, H, BLUSH2, (SUN, 410, 110, 150))
@@ -616,6 +665,7 @@ def main():
         "art-zelfzorg.svg": art_selfcare,
         "art-avondroutine.svg": art_evening,
         "art-microdosering.svg": art_microdosering,
+        "art-knopen.svg": art_knopen,
     }
     for name, fn in arts.items():
         write(name, AW, AH, fn(), title=name.replace("art-", "").replace(".svg", "").replace("-", " "))

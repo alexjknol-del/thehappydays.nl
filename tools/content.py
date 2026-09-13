@@ -61,6 +61,37 @@ def cat(slug):
 # ============================================================
 ARTICLES = [
     {
+        "slug": "knopen-met-koord-handwerk-als-rustmoment",
+        "title": "Knopen met koord: handwerk als rustmoment",
+        "cat": "mindful-leven",
+        "date": "2026-09-11", "date_nl": "11 september 2026", "read": 5,
+        "img": "art-knopen.svg",
+        "excerpt": "Iets maken met de handen vraagt precies genoeg aandacht om het hoofd stil te krijgen. Knopen met koord is daar een van de eenvoudigste vormen van, en er is bijna niets voor nodig.",
+        "body": """
+<p>Er zijn avonden waarop niets helpt. De telefoon blijft trekken, een boek blijft na twee bladzijden liggen en televisie kijken voelt als wachten. Op zulke momenten werkt iets doen met de handen vaak beter dan proberen te ontspannen. Knopen met koord is daar een van de toegankelijkste vormen van: geen cursus, geen machine, geen werkkamer.</p>
+
+<h2>Waarom herhaling het hoofd stil krijgt</h2>
+<p>Een knoop bestaat uit een handeling die telkens terugkomt. Die herhaling vraagt genoeg aandacht om niet af te dwalen, maar te weinig om in te spannen. Dat is dezelfde reden waarom breien, haken en tekenen zo vaak worden genoemd als rustgevend. Het verschil met scrollen is dat er na een half uur iets ligt dat er eerst niet was.</p>
+
+<h2>Wat er nodig is om te beginnen</h2>
+<p>De basis is een paar meter koord, een sluiting en een schaar. Wie niet los wil uitzoeken, begint met een kant en klaar setje. Bij <a href="https://www.123paracord.nl/diy-sets/armbandsetjes/">123Paracord</a> gaat het om setjes voor een armband rond zes euro, waarin koord, sluiting en beschrijving al bij elkaar zitten. Voor een eerste avond is dat genoeg, en het voorkomt dat er halverwege iets ontbreekt.</p>
+
+<blockquote><p>Beginnen met een compleet setje scheelt de teleurstelling van een halve avond zoeken naar het juiste onderdeel.</p></blockquote>
+
+<h2>Twee knopen zijn een begin</h2>
+<p>De platte knoop en de slangenknoop dekken samen het meeste af. De eerste geeft een breed, regelmatig bandje, de tweede een ronde streng die strakker aanvoelt. Beide zijn in een kwartier onder de knie. Wie liever iets ronds maakt, gebruikt een schijf: op de pagina met knoopschijven van <a href="https://www.123paracord.nl/paracord-accessoires/kumihimo-schijf/">123paracord.nl</a> staan de ronde exemplaren van ongeveer drie euro, waarmee acht draden zich vanzelf tot een vlecht ordenen zonder dat er geteld hoeft te worden.</p>
+
+<h2>Klein beginnen loont</h2>
+<p>Een armband of een sleutelhanger is in een avond af. Een riem of een tas is dat niet, en juist daar loopt het vaak stuk: een project dat weken duurt, verandert van rustmoment in een verplichting die ligt te wachten. De regel die het langst standhoudt, is dat een project binnen twee avonden af moet kunnen zijn.</p>
+
+<h2>Een vaste plek voor het materiaal</h2>
+<p>Handwerk sterft een stille dood in een la waar alles doorheen ligt. Een mandje of een doos waarin koord, schaar en sluitingen samen blijven, maakt het verschil tussen een hobby die doorloopt en een die na drie keer stopt. Alles binnen handbereik betekent dat het aanzetten geen moeite kost.</p>
+
+<h2>Wat het oplevert naast het bandje</h2>
+<p>Het resultaat is bescheiden en dat is precies goed. Een gevlochten bandje om de pols, een sleutelhanger aan een tas, iets dat weggegeven kan worden. Wat blijft hangen is niet zozeer het voorwerp, maar het half uur waarin de gedachten een andere kant op gingen. Dat is een klein ding, en kleine dingen zijn nou juist waar fijne dagen uit bestaan.</p>
+""",
+    },
+    {
         "slug": "microdosering-waar-de-term-vandaan-komt",
         "title": "Microdosering: waar die term vandaan komt en wat er precies mee bedoeld wordt",
         "cat": "mindful-leven",
