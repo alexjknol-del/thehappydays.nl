@@ -482,6 +482,14 @@ def build_partners():
          "color": "#E29A18", "anchor": "zit sta bureau 180 x 80",
          "desc": "Desk Express levert in hoogte verstelbare bureaus, zodat afwisselen tussen zitten en "
                  "staan op een werkdag vanzelf gaat."},
+        {"name": "Yuice", "url": "https://yuice.nl/drinkyoghurt-maken/", "initial": "Y",
+         "color": "#E29A18", "anchor": "Drinkyoghurt maken via Yuice",
+         "desc": "Yuice deelt recepten en uitleg over gezonde dranken en kruidenmixen, met per recept de "
+                 "verhoudingen en de bereiding."},
+        {"name": "Greensoil StartersKit", "url": "https://greensoil.eu/starterskit", "initial": "G",
+         "color": "#9FB291", "anchor": "kweekset kopen",
+         "desc": "Een complete kweekset met tien natuurlijke plantenvoedingen en een wekelijks kweekschema, "
+                 "van de eerste wortels tot de bloei. Handig voor wie voor het eerst zelf iets opkweekt."},
     ]
     phtml = "".join(f'''<div class="partner">
 <div class="partner__badge" style="background:{p['color']}">{p['initial']}</div>
@@ -701,7 +709,7 @@ def build_article(a):
 </section>
 </main>
 {footer_html()}'''
-    return head(a["title"], a["excerpt"], f"/nieuws/{a['slug']}/",
+    return head(a.get("meta_title") or a["title"], a.get("meta_desc") or a["excerpt"], f"/nieuws/{a['slug']}/",
                 og_image=og,
                 article_meta={"date": a["date"], "section": c["name"]},
                 jsonld=[ld_article(a),

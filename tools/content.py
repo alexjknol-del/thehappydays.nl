@@ -61,6 +61,99 @@ def cat(slug):
 # ============================================================
 ARTICLES = [
     {
+        "slug": "zo-houd-je-aandacht-voor-elkaar-in-een-lange-relatie",
+        "title": "Zo houd je aandacht voor elkaar in een lange relatie",
+        "meta_title": "Relatietips voor een gezonde relatie die echt verschil maken?",
+        "meta_desc": "Relatietips voor meer aandacht en verbinding ✓ Ontdek hoe communicatie, waardering en ruimte voor jezelf bijdragen aan een gezonde relatie ✓",
+        "cat": "persoonlijke-groei",
+        "date": "2026-09-22", "date_nl": "22 september 2026", "read": 4,
+        "img": "art-relatie.svg",
+        "excerpt": "In het begin van een relatie gaat aandacht voor elkaar bijna vanzelf. Je zoekt elkaar op, praat urenlang en maakt bewust tijd vrij om samen te zijn.",
+        "body": """
+<p>In het begin van een relatie gaat aandacht voor elkaar bijna vanzelf. Je zoekt elkaar op, praat urenlang en maakt bewust tijd vrij om samen te zijn. Naarmate je langer samen bent, krijgt het dagelijks leven steeds meer ruimte. Werk, sociale afspraken en andere verplichtingen komen op de voorgrond. Juist dan is het waardevol om bewust te blijven investeren in de band met je partner. Dat hoeft echt niet ingewikkeld te zijn. Kleine, regelmatige gewoontes kunnen al meer verschil maken dan je zou denken.</p>
+<h2>Blijf met elkaar in gesprek</h2>
+<p>Goede communicatie betekent niet alleen praten wanneer er iets misgaat. Vertel elkaar ook wat je bezighoudt, waar je naar uitkijkt en wat je nodig hebt. Verwacht niet automatisch dat je partner weet wat je denkt of voelt: zelfs mensen die jarenlang samenleven hebben dat niet altijd door. Een praktische <a href="https://www.online-relatietherapie.nl/10-relatietips/" target="_blank" rel="noopener">relatietip</a> is om regelmatig bewust tijd te maken voor een gesprek zonder afleiding van telefoons, televisie of anderen. Luister daarbij niet alleen om te kunnen antwoorden, maar probeer werkelijk te begrijpen wat de ander bedoelt. Dat voorkomt dat kleine irritaties zich onnodig opstapelen.</p>
+<h2>Houd ruimte voor jezelf</h2>
+<p>Een sterke relatie betekent niet dat je alles samen moet doen. Eigen hobby's, vriendschappen en interesses blijven belangrijk, ook als je lang samen bent. Ze geven je ruimte om jezelf te blijven ontwikkelen en zorgen voor nieuwe ervaringen die je met je partner kunt delen. Verschillen tussen partners hoeven dan ook geen obstakel te zijn. Het is zelden nodig om de ander te veranderen. Respect voor elkaars karakter en voorkeuren draagt juist bij aan een prettige balans tussen verbondenheid en zelfstandigheid, en voorkomt dat je in een relatie jezelf kwijtraakt.</p>
+<h2>Laat waardering niet vanzelfsprekend worden</h2>
+<p>Wanneer je lang samen bent, raak je gemakkelijk gewend aan wat de ander allemaal doet. Een maaltijd koken, iets regelen of gewoon luisteren na een drukke dag kan daardoor ongemerkt vanzelfsprekend gaan aanvoelen. Spreek je waardering daarom uit, ook als het om kleine dingen gaat. Een oprecht compliment of een eenvoudig bedankje laat zien dat je de ander nog steeds bewust ziet en waardeert. Hetzelfde geldt voor samen tijd doorbrengen. Een avond zonder afleiding, een wandeling of rustig koffie drinken samen kan genoeg zijn om opnieuw echt contact te hebben.</p>
+<h2>Bespreek wat je dwarszit</h2>
+<p>Gevoelens opkroppen zorgt er bijna altijd voor dat frustraties zich opstapelen totdat ze op het verkeerde moment naar buiten komen. Eerlijk vertellen wat je raakt of waar je onzeker over bent, maakt het mogelijk om samen naar een oplossing te zoeken in plaats van langs elkaar heen te werken. Daarbij hoort ook verantwoordelijkheid nemen wanneer je zelf iets niet handig hebt aangepakt. Excuses aanbieden en echt luisteren naar de ervaring van je partner kunnen helpen om na een conflict weer nader tot elkaar te komen zonder dat oude kwesties blijven smeulen.</p>
+<p>Soms blijven bepaalde patronen ondanks gesprekken terugkomen. Dan kan <a href="https://www.online-relatietherapie.nl/" target="_blank" rel="noopener">online relatietherapie</a> een waardevolle stap zijn om samen of individueel naar communicatie, gedrag en verwachtingen te kijken. Een therapeut begeleidt het gesprek en helpt om patronen te herkennen die vanuit de relatie zelf moeilijk zichtbaar zijn. Ook stellen zonder grote problemen kunnen er baat bij hebben om bewust stil te staan bij hoe ze met elkaar omgaan.</p>
+<h2>Aandacht blijft de basis</h2>
+<p>Een gezonde relatie vraagt niet om voortdurende romantische gebaren of grote inspanningen. Vaak zit verbinding juist in dagelijkse aandacht, eerlijkheid en oprechte interesse in elkaar. Door te blijven praten, ruimte te geven en waardering uit te spreken, voorkom je dat samenzijn alleen een gewoonte wordt. Zo blijft er plaats voor zowel je eigen ontwikkeling als de band die jullie samen hebben opgebouwd.</p>
+<h2>Veelgestelde vragen</h2>
+<h3>Hoe voorkom je dat je als stel langs elkaar heen gaat leven?</h3>
+<p>Maak bewust momenten vrij waarop jullie zonder afleiding samen zijn en met elkaar praten. Regelmaat is daarbij vaak belangrijker dan de duur van zo'n moment.</p>
+<h3>Moet je als stel alles samen doen?</h3>
+<p>Nee. Eigen hobby's, vrienden en activiteiten dragen juist bij aan een gezonde relatie. Je houdt zo ruimte voor je eigen identiteit en brengt nieuwe ervaringen mee naar huis.</p>
+<h3>Wanneer kan relatietherapie zinvol zijn?</h3>
+<p>Relatietherapie kan worden overwogen wanneer conflicten of communicatieproblemen blijven terugkomen. Ook stellen zonder grote problemen kunnen er baat bij hebben om bewuster naar hun relatie en onderlinge patronen te kijken.</p>
+""",
+    },
+    {
+        "slug": "meer-vertrouwen-in-jezelf",
+        "title": "Meer vertrouwen in jezelf begint bij hoe je naar jezelf kijkt",
+        "meta_title": "Zelfvertrouwen vergroten door anders naar jezelf te kijken?",
+        "meta_desc": "Zelfvertrouwen vergroten? ✓ Ontdek hoe gedachten en ervaringen je zelfbeeld beïnvloeden ✓ Lees hoe kleine veranderingen meer vertrouwen kunnen geven.",
+        "cat": "persoonlijke-groei",
+        "date": "2026-09-23", "date_nl": "23 september 2026", "read": 3,
+        "img": "art-zelfvertrouwen.svg",
+        "excerpt": "Zelfvertrouwen lijkt soms iets wat je hebt of niet hebt. In werkelijkheid verandert het door de jaren heen, soms zonder dat je het direct doorhebt.",
+        "body": """
+<p>Zelfvertrouwen lijkt soms iets wat je hebt of niet hebt. In werkelijkheid verandert het door de jaren heen, soms zonder dat je het direct doorhebt. Ervaringen, reacties van anderen en de manier waarop je over jezelf bent gaan denken, spelen allemaal een rol. Een kritische opmerking kan verrassend lang blijven hangen. Positieve ervaringen laten dan juist zien dat je meer kunt dan je dacht. Wie onzekerheid beter leert begrijpen, ontdekt ook waar ruimte voor verandering zit.</p>
+<h2>Hoe je zelfbeeld zich ontwikkelt</h2>
+<p>Je zelfbeeld ontstaat niet op één moment. Als kind krijg je voortdurend signalen over wat anderen van je vinden. Ouders, leraren, vrienden en klasgenoten laten allemaal hun sporen na in hoe je naar jezelf kijkt. Ook ervaringen op latere leeftijd tellen mee. Een negatieve ervaring hoeft op zichzelf niet bepalend te zijn, maar bepaalde opmerkingen of gebeurtenissen kunnen zich vastzetten. Je gaat geloven dat je niet slim genoeg bent, of dat je altijd fouten maakt. Wanneer zulke gedachten regelmatig terugkomen, gaan ze vanzelfsprekender voelen dan ze in werkelijkheid zijn.</p>
+<h2>Wanneer onzekerheid je keuzes bepaalt</h2>
+<p>Iedereen twijfelt weleens aan zichzelf. Dat wordt lastig als onzekerheid bepaalt wat je wel en niet durft te doen. Misschien spreek je tijdens een vergadering liever niet, terwijl je wel een goed idee hebt. Of je vermijdt nieuwe activiteiten omdat je vooraf al verwacht te falen. Door situaties steeds te omzeilen, krijg je minder kansen om te ervaren dat je ze misschien wél aankunt. Wie bewust wil werken aan <a href="https://www.internettherapeut.nl/hulp-bij-zelfvertrouwen/" target="_blank" rel="noopener">zelfvertrouwen vergroten</a>, doet er goed aan om naar zowel gedachten als gedrag te kijken. Juist die combinatie helpt om oude overtuigingen opnieuw te onderzoeken en stap voor stap te verzwakken.</p>
+<h2>Anders leren kijken naar kritische gedachten</h2>
+<p>Een negatieve gedachte over jezelf is niet automatisch een feit, ook al klinkt ze overtuigend. Je maakt één fout en denkt meteen dat je nergens goed in bent. Iemand reageert kortaf en je concludeert dat jij iets verkeerd hebt gedaan. Het helpt om zulke gedachten bewust op te merken in plaats van ze zomaar te accepteren. Vraag jezelf af waarop je conclusie is gebaseerd en welke informatie je misschien over het hoofd ziet. Denk ook aan momenten waarop iets juist goed ging. Het doel is niet om alles positief te maken, maar om realistischer naar jezelf en je mogelijkheden te leren kijken.</p>
+<h2>Kleine ervaringen kunnen verschil maken</h2>
+<p>Zelfvertrouwen groeit niet alleen door anders te denken. Gedrag speelt een minstens even grote rol. Iets doen wat je spannend vindt, levert nieuwe informatie op die je verwachtingen kan corrigeren. Stel die vraag toch, ga alleen naar die activiteit, geef duidelijk je mening. Begin bij een uitdaging die haalbaar voelt, zodat je kunt ervaren wat er werkelijk gebeurt in plaats van alleen af te gaan op wat je vreesde. Als onzekerheid hardnekkig is en je dagelijks leven structureel beperkt, kan begeleiding door een psycholoog helpen. Ook online gesprekken via <a href="https://www.internettherapeut.nl/" target="_blank" rel="noopener">internettherapeut.nl</a> bieden de mogelijkheid om gedachten en gedrag samen te onderzoeken, zonder wachtlijst en vanuit een vertrouwde omgeving.</p>
+<h2>Zelfvertrouwen hoeft niet perfect te zijn</h2>
+<p>Meer vertrouwen in jezelf betekent niet dat onzekerheid volledig verdwijnt. Twijfel hoort bij nieuwe situaties en moeilijke keuzes, dat is gewoon menselijk. Het verschil zit vooral in de ruimte die je die twijfel geeft. Wanneer je jezelf niet voortdurend langs een onhaalbare meetlat legt, ontstaat er meer vrijheid om te proberen, te leren en soms fouten te maken zonder dat dat meteen iets zegt over wie je bent.</p>
+<h2>Veelgestelde vragen</h2>
+<h3>Kun je zelfvertrouwen echt ontwikkelen?</h3>
+<p>Ja. Zelfvertrouwen kan veranderen door nieuwe ervaringen en door bewuster om te gaan met negatieve overtuigingen over jezelf. Cognitieve gedragstherapie is een bewezen effectieve methode om daarmee aan de slag te gaan.</p>
+<h3>Wat is het verschil tussen zelfvertrouwen en zelfbeeld?</h3>
+<p>Zelfbeeld gaat over hoe je jezelf als persoon ziet. Zelfvertrouwen heeft meer te maken met het vertrouwen dat je hebt in je eigen mogelijkheden. Beide beïnvloeden elkaar en kunnen allebei worden versterkt.</p>
+<h3>Wanneer kan professionele hulp zinvol zijn?</h3>
+<p>Als onzekerheid je dagelijks functioneren beperkt, bijvoorbeeld doordat je sociale situaties, werk of nieuwe activiteiten structureel vermijdt, is het zinvol om dit met een psycholoog te bespreken.</p>
+""",
+    },
+    {
+        "slug": "welke-therapievorm-past-bij-trauma-verwerken",
+        "title": "Welke therapievorm past bij het verwerken van trauma?",
+        "meta_title": "Trauma therapie kiezen die past bij jouw klachten?",
+        "meta_desc": "Welke trauma therapie past bij je? ✓ Lees over EMDR, CGT, schematherapie en NET ✓ Ontdek waarom een persoonlijke aanpak belangrijk is.",
+        "cat": "zelfzorg",
+        "date": "2026-09-24", "date_nl": "24 september 2026", "read": 3,
+        "img": "art-verwerken.svg",
+        "excerpt": "Een ingrijpende ervaring kan lang doorwerken, ook als het er op het eerste gezicht niet zo uitziet. Soms merk je het aan terugkerende beelden of nachtmerries.",
+        "body": """
+<p>Een ingrijpende ervaring kan lang doorwerken, ook als het er op het eerste gezicht niet zo uitziet. Soms merk je het aan terugkerende beelden of nachtmerries. Soms aan een aanhoudend gevoel van onrust, de neiging om bepaalde situaties te vermijden of gedachten over jezelf die steeds terugkomen. Trauma heeft veel gezichten, en gelukkig zijn er ook verschillende manieren om ermee aan de slag te gaan. Welke therapievorm het beste past, hangt af van je ervaringen, je klachten en wat je op dat moment aankunt.</p>
+<h2>Waarom er niet één aanpak bestaat</h2>
+<p>Trauma is geen vastomlijnde klacht die altijd op dezelfde manier wordt behandeld. Een eenmalige schokkende gebeurtenis kan andere gevolgen hebben dan langdurige onveiligheid vroeg in het leven. Ook maakt het uit of bepaalde herinneringen de meeste spanning veroorzaken, of dat er diepgewortelde patronen zijn ontstaan die al jaren doorwerken in hoe je denkt, voelt en reageert. Juist daarom bestaat <a href="https://www.trauma-therapie.nl/therapieen/" target="_blank" rel="noopener">trauma therapie</a> uit verschillende behandelvormen, elk met een eigen insteek en werkwijze. Een psycholoog kan samen met jou onderzoeken wat er speelt en welke aanpak daarbij het beste aansluit.</p>
+<h2>EMDR bij belastende herinneringen</h2>
+<p>EMDR staat voor Eye Movement Desensitization and Reprocessing. Bij deze behandeling denk je onder begeleiding terug aan een belastende herinnering, terwijl je tegelijkertijd een afleidende taak uitvoert zoals het volgen van bewegingen met je ogen. Het doel is niet om de herinnering te wissen, maar om de emotionele lading ervan te verminderen. Zo kun je aan de ervaring terugdenken zonder dat dezelfde intense spanning telkens opnieuw wordt opgeroepen. EMDR wordt veel ingezet bij enkelvoudig trauma en posttraumatische stressklachten en is een van de meest onderzochte methoden op dit gebied.</p>
+<h2>Gedachten en patronen doorbreken</h2>
+<p>Bij cognitieve gedragstherapie staat de wisselwerking tussen gedachten, gevoelens en gedrag centraal. Na een ingrijpende ervaring kunnen overtuigingen ontstaan die je dagelijks leven stilletjes beïnvloeden, zoals het idee dat de wereld onveilig is of dat je zelf tekortschiet. Tijdens de behandeling onderzoek je die overtuigingen en leer je er anders mee om te gaan. Schematherapie gaat een stap verder en richt zich op patronen die vaak al vroeg in het leven zijn ontstaan. Denk aan wantrouwen, verlatingsangst of een negatief zelfbeeld. Deze methode is met name waardevol bij complex trauma of wanneer vroegere ervaringen nog steeds doorwerken in relaties en zelfbeleving.</p>
+<h2>Een levensverhaal opnieuw ordenen</h2>
+<p>Narratieve Exposure Therapie, afgekort NET, is ontwikkeld voor mensen die meerdere traumatische gebeurtenissen hebben meegemaakt. Samen met een behandelaar breng je belangrijke ervaringen in chronologische volgorde, waarbij ook positieve en betekenisvolle momenten een plek krijgen naast de moeilijke. Zo kan er meer samenhang ontstaan tussen herinneringen die eerder versnipperd of overweldigend aanvoelden. NET wordt onder meer ingezet bij langdurig misbruik, oorlogservaringen of vluchtelingenachtergronden.</p>
+<h2>Online hulp als toegankelijke optie</h2>
+<p>De keuze voor een therapievorm hangt niet alleen af van de methode zelf. Ook praktische factoren spelen mee. Voor wie vanuit een vertrouwde omgeving wil starten, biedt <a href="https://www.trauma-therapie.nl/" target="_blank" rel="noopener">Online Trauma Therapie</a> de mogelijkheid om via beveiligd videobellen met een gespecialiseerde psycholoog te werken, zonder wachtlijst en met flexibele afspraken. Of online behandeling bij jouw situatie past, wordt tijdens een professionele intake beoordeeld. De eerste kennismaking is gratis, wat de drempel om te beginnen zo laag mogelijk maakt.</p>
+<h2>Ruimte voor een persoonlijke aanpak</h2>
+<p>Traumaverwerking volgt geen standaardroute. Soms is één methode precies wat iemand nodig heeft. In andere gevallen worden behandelvormen gecombineerd of aangepast naarmate het traject vordert. Wat het meeste oplevert, hangt af van jouw verhaal, je klachten en wat je op dat moment aankunt. Een behandelplan dat daarin meeverandert, geeft ruimte voor echte vooruitgang in plaats van een vaststaand protocol.</p>
+<h2>Veelgestelde vragen</h2>
+<h3>Welke therapie wordt vaak gebruikt bij trauma?</h3>
+<p>EMDR en traumagerichte cognitieve gedragstherapie worden veel ingezet bij traumagerelateerde klachten. Ook NET en schematherapie kunnen passend zijn, afhankelijk van de situatie en de achtergrond van de klachten.</p>
+<h3>Is EMDR geschikt voor ieder trauma?</h3>
+<p>Niet automatisch. Of EMDR passend is, hangt af van je klachten, ervaringen en persoonlijke omstandigheden. Een behandelaar kan dit samen met jou beoordelen tijdens een intake.</p>
+<h3>Kunnen verschillende traumatherapieën worden gecombineerd?</h3>
+<p>Ja, dat is mogelijk en soms zelfs de sterkste aanpak. Verschillende behandelmethoden kunnen na elkaar of naast elkaar worden gebruikt, afhankelijk van de behandeldoelen en het verloop van het traject.</p>
+""",
+    },
+    {
         "slug": "knopen-met-koord-handwerk-als-rustmoment",
         "title": "Knopen met koord: handwerk als rustmoment",
         "cat": "mindful-leven",

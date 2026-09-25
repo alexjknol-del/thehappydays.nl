@@ -650,6 +650,44 @@ def art_microdosering():
     return body
 
 
+def art_relatie():
+    rect, clip = panel(AW, AH, BLUSH2, (BLUSH, 110, 210, 110))
+    body = rect + clip
+    body += heart(168, 158, 120, CORAL)
+    body += heart(258, 120, 76, SUN)
+    body += g(300, 196, 0.62, candle(BLUSH))
+    body += sun(76, 70, 16, SUN, rays=8)
+    body += sparkle(330, 74, 9, CORAL)
+    body += dot(110, 250, 4.5, SAGE)
+    body += dot(250, 256, 4, CORALDP)
+    return body
+
+
+def art_zelfvertrouwen():
+    rect, clip = panel(AW, AH, "#FCF1D9", (SUN, 300, 90, 96))
+    body = rect + clip
+    body += sun(304, 88, 26, SUNDEEP, rays=10)
+    body += g(150, 104, 1.35, plant(CORAL, SAGE))
+    body += leaf(270, 214, 24, SAGE, -20)
+    body += sparkle(84, 88, 10, CORAL)
+    body += sparkle(236, 60, 7, SUN)
+    body += dot(96, 250, 4.5, CORAL)
+    return body
+
+
+def art_verwerken():
+    rect, clip = panel(AW, AH, SKYSF, (SKY, 96, 220, 100))
+    body = rect + clip
+    body += g(62, 112, 1.3, journal(SKY))
+    body += g(262, 170, 0.95, pen(CORAL))
+    body += leaf(318, 206, 26, SAGE, 16)
+    body += leaf(346, 222, 20, SAGE, -28)
+    body += sun(318, 76, 18, SUN, rays=9)
+    body += sparkle(80, 80, 8, SUN)
+    body += dot(120, 252, 4, CORAL)
+    return body
+
+
 # ============================================================
 #  Schrijf alle bestanden
 # ============================================================
@@ -666,6 +704,9 @@ def main():
         "art-avondroutine.svg": art_evening,
         "art-microdosering.svg": art_microdosering,
         "art-knopen.svg": art_knopen,
+        "art-relatie.svg": art_relatie,
+        "art-zelfvertrouwen.svg": art_zelfvertrouwen,
+        "art-verwerken.svg": art_verwerken,
     }
     for name, fn in arts.items():
         write(name, AW, AH, fn(), title=name.replace("art-", "").replace(".svg", "").replace("-", " "))
