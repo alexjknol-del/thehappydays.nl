@@ -61,6 +61,36 @@ def cat(slug):
 # ============================================================
 ARTICLES = [
     {
+        "slug": "curacao-op-eigen-tempo-vakantie-zonder-haast",
+        "title": "Curaçao op eigen tempo: een vakantie zonder haast",
+        "cat": "mindful-leven",
+        "date": "2026-09-10", "date_nl": "10 september 2026", "read": 4,
+        "img": "art-curacao.svg",
+        "excerpt": "Een vakantie op Curaçao hoeft geen afvinklijst te worden. Wie het eiland op eigen tempo verkent, met vroege ochtenden en lege middagen, komt echt thuis uitgerust terug.",
+        "body": """
+<p>Veel vakanties beginnen met een lijst. Stranden die gezien moeten worden, uitzichtpunten die niet mogen ontbreken, een restaurant dat iedereen aanraadt. Op Curaçao is die lijst snel lang, want het eiland is klein en er ligt veel dicht bij elkaar. Toch zit de charme van het eiland minder in hoeveel ervan gezien wordt, en meer in hoe. Een vakantie op eigen tempo levert vaak meer op dan een volgepland schema.</p>
+
+<h2>Het ritme van het eiland volgen</h2>
+<p>Op Curaçao is het warm, het hele jaar door. Dat bepaalt vanzelf het ritme van de dag. De ochtend is fris en helder, het middaguur is heet en loom, de late middag wordt weer aangenaam. Wie daarin meebeweegt, doet de actieve dingen vroeg, zoekt tussen de middag de schaduw op en gaat pas tegen vieren weer op pad. Het klinkt eenvoudig, maar juist die ingebouwde pauze maakt dat een vakantiedag niet voelt als een werkdag met zon.</p>
+
+<h2>Eén plek per dag is genoeg</h2>
+<p>De verleiding is groot om op één dag drie baaien, een wandeling en de stad te combineren. Het kan, want de afstanden zijn kort. Het gevolg is alleen dat elke plek een tussenstop wordt. Een dag aan één baai, met tijd om te snorkelen, te lezen en even niets te doen, blijft vaak beter hangen. Grote Knip aan de westkant of het binnenwater van Spaanse Water zijn plekken waar een hele dag zonder moeite voorbijgaat.</p>
+
+<h2>Vroege ochtenden in plaats van lange avonden</h2>
+<p>Het wordt op Curaçao vroeg donker, rond zeven uur 's avonds. Dat nodigt uit om de dag ook vroeg te beginnen. Een wandeling in het Christoffelpark bij zonsopkomst, een eerste duik in een baai waar verder nog niemand is, koffie op het terras terwijl de hagedissen opwarmen in de zon. Het zijn momenten die geen enkele planning vragen en die later het vaakst terugkomen in de herinnering.</p>
+
+<h2>Vrijheid zonder vertrektijden</h2>
+<p>Het openbaar vervoer rijdt beperkt, zeker naar het westen van het eiland. Met een eigen auto is er geen afhankelijkheid van vaste tijden, en vertrekken kan gewoon wanneer het goed voelt. Blijven zitten omdat het water zo helder is, onderweg stoppen bij de zoutpannen van Sint Willibrordus omdat er flamingo's staan, of op een warme middag besluiten om terug te gaan: met een auto voor de deur hoeft daar niemand over te overleggen.</p>
+<p>Ook de aankomst kan zonder gedoe. Bij <a href="https://www.autohurenopcuracao.nl/">AutohurenopCuracao.nl</a> kan de auto op de luchthaven of bij het verblijf worden afgeleverd, zodat de eerste middag niet begint met een rit naar een verhuurkantoor. De auto's zijn jong, goed onderhouden en rijden met een all-risk verzekering, wat onderweg een zorg minder is. Wie met een groter gezelschap reist, vindt bij <a href="https://www.huurauto-curacao.com/">Huurauto-Curacao.com</a> naast compacte auto's en kleine SUV's ook zevenpersoonsauto's, zodat iedereen samen op pad kan.</p>
+
+<h2>Ruimte laten in de planning</h2>
+<p>Een handige gewoonte is om per dag hooguit één ding vast te leggen en de rest open te laten. Regent het even, wat op Curaçao meestal snel overwaait, dan schuift het plan een dag op. Is er iemand moe, dan wordt het een dag bij het zwembad. Die ruimte haalt de druk van de vakantie af. Er hoeft niets, en daardoor voelt alles wat wel gebeurt als een cadeautje.</p>
+
+<h2>Thuiskomen met rust in het hoofd</h2>
+<p>Een vakantie op eigen tempo draait niet om zo veel mogelijk zien, maar om het gevoel waarmee de reis eindigt. Door het ritme van de warmte te volgen, per dag één plek te kiezen en de ochtenden te benutten, wordt Curaçao een eiland om bij te komen in plaats van een eiland om af te werken. De baaien die niet gezien zijn, liggen er de volgende keer nog steeds.</p>
+""",
+    },
+    {
         "slug": "zo-houd-je-aandacht-voor-elkaar-in-een-lange-relatie",
         "title": "Zo houd je aandacht voor elkaar in een lange relatie",
         "meta_title": "Relatietips voor een gezonde relatie die echt verschil maken?",

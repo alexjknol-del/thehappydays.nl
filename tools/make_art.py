@@ -688,6 +688,39 @@ def art_verwerken():
     return body
 
 
+def art_curacao():
+    """Illustratie bij het artikel over een vakantie op Curaçao op eigen tempo:
+    zon boven zee, een palmboom en een klein autootje langs de kust."""
+    rect, clip = panel(AW, AH, SKYSF, (SUN, 330, 70, 92))
+    body = rect + clip
+    body += sun(318, 76, 24, SUNDEEP, rays=10)
+    # zee
+    body += (f'<path d="M0,196 q25,-10 50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 L400,300 L0,300 Z" '
+             f'fill="{SKY}" stroke="{INK}" stroke-width="{SW}"/>')
+    body += (f'<path d="M40,232 q14,-6 28,0 t28,0 M210,248 q14,-6 28,0 t28,0" '
+             f'stroke="{PAPER}" stroke-width="3"/>')
+    # strookje strand met weg
+    body += (f'<path d="M0,178 L400,178 L400,198 Q300,190 200,198 Q100,206 0,198 Z" '
+             f'fill="#F6E4B0" stroke="{INK}" stroke-width="{SW}"/>')
+    # palmboom
+    body += (f'<path d="M92,180 Q86,130 104,86" stroke="{HAIR}" stroke-width="9"/>')
+    for d in ["M104,86 Q76,70 52,86", "M104,86 Q92,58 70,52", "M104,86 Q120,56 144,58",
+              "M104,86 Q136,76 152,98", "M104,86 Q96,96 80,116"]:
+        body += f'<path d="{d}" stroke="{SAGE}" stroke-width="9"/>'
+    body += dot(106, 92, 5, SUNDEEP)
+    # autootje
+    body += ('<g transform="translate(206,132)">'
+             f'<path d="M8,34 L14,18 Q18,10 28,10 L66,10 Q76,10 82,20 L92,34 Q100,36 100,44 L100,50 L0,50 L0,42 Q0,36 8,34 Z" '
+             f'fill="{CORAL}" stroke="{INK}" stroke-width="{SW}"/>'
+             f'<path d="M22,32 L27,18 L46,18 L46,32 Z M54,32 L54,18 L72,18 L82,32 Z" fill="{PAPER}" stroke="{INK}" stroke-width="2.6"/>'
+             f'<circle cx="24" cy="50" r="10" fill="{INK}"/><circle cx="24" cy="50" r="4" fill="{PAPER}"/>'
+             f'<circle cx="78" cy="50" r="10" fill="{INK}"/><circle cx="78" cy="50" r="4" fill="{PAPER}"/>'
+             '</g>')
+    body += sparkle(170, 70, 9, CORAL)
+    body += dot(250, 60, 4, CORAL)
+    return body
+
+
 # ============================================================
 #  Schrijf alle bestanden
 # ============================================================
@@ -707,6 +740,7 @@ def main():
         "art-relatie.svg": art_relatie,
         "art-zelfvertrouwen.svg": art_zelfvertrouwen,
         "art-verwerken.svg": art_verwerken,
+        "art-curacao.svg": art_curacao,
     }
     for name, fn in arts.items():
         write(name, AW, AH, fn(), title=name.replace("art-", "").replace(".svg", "").replace("-", " "))
