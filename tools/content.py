@@ -61,6 +61,90 @@ def cat(slug):
 # ============================================================
 ARTICLES = [
     {
+        "slug": "zijden-boeket-in-huis-bloemen-die-blijven",
+        "title": "Een zijden boeket in huis: bloemen die blijven staan",
+        "cat": "thuis-en-sfeer",
+        "date": "2026-07-10",
+        "date_nl": "10 juli 2026",
+        "read": 4,
+        "img": "art-hygge.svg",
+        "excerpt": "Verse bloemen zijn heerlijk, maar na een week ben je ze kwijt. Een zijden boeket geeft je dezelfde kleur en zachtheid, het hele jaar door.",
+        "body": """
+<p>Er zijn weinig dingen die een kamer zo snel opfleuren als een bos bloemen op tafel. Alleen: na een paar dagen zakken de koppen, wordt het water troebel en ligt er blad op het tafelkleed. Wie graag bloemen in huis heeft maar niet elke week naar de bloemist wil, kan eens naar een zijden boeket kijken.</p>
+
+<h2>Wat een zijden boeket anders maakt</h2>
+<p>De boeketten van vroeger, met harde plastic blaadjes en felle kleuren, zijn verleden tijd. Goede zijden bloemen hebben zachte bloemblaadjes, natuurlijke kleurverlopen en stelen die je kunt buigen. Van een afstandje zie je het verschil met echte bloemen nauwelijks.</p>
+
+<h2>Waarom het bij een rustig huis past</h2>
+<p>Een zijden boeket vraagt niets van je. Geen water verversen, geen stelen afsnijden, geen gevallen blaadjes. Je zet het neer en het blijft mooi. Juist in een huis waar je tot rust wilt komen, scheelt dat weer een klein klusje.</p>
+
+<h2>De juiste plek</h2>
+<ul>
+<li>Op de eettafel, laag genoeg om elkaar nog aan te kijken.</li>
+<li>In de hal, zodat je bij thuiskomst meteen iets moois ziet.</li>
+<li>Op een plank of dressoir, samen met een kaars en een boek.</li>
+</ul>
+<p>Zet het boeket liever niet pal in de volle zon. Na maanden licht kunnen de kleuren iets verbleken.</p>
+
+<h2>Zelf eens kijken</h2>
+<p>Bij <a href="https://bloomzy.nl/">Bloomzy</a> vind je een ruime collectie, van romantisch roze tot sober wit en groen. Alle zijden boeketten staan bij elkaar op <a href="https://bloomzy.nl/collectie/zijden-boeketten">https://bloomzy.nl/collectie/zijden-boeketten</a>, zodat je makkelijk kunt kiezen wat bij jouw interieur past.</p>
+""",
+    },
+    {
+        "slug": "bloemen-op-tafel-zonder-gedoe",
+        "title": "Elke dag bloemen op tafel, zonder gedoe",
+        "cat": "thuis-en-sfeer",
+        "date": "2026-08-12",
+        "date_nl": "12 augustus 2026",
+        "read": 4,
+        "img": "art-opruimen.svg",
+        "excerpt": "Een gedekte tafel met bloemen voelt meteen feestelijk. Met een kunstboeket heb je dat gevoel elke dag, ook als je weinig tijd hebt.",
+        "body": """
+<p>Een mooi gedekte tafel hoeft niet alleen voor feestdagen te zijn. Een paar kaarsen, een fijn tafelkleed en een bos bloemen maken van een gewone doordeweekse maaltijd al iets bijzonders. Het enige wat in de praktijk vaak ontbreekt, zijn die bloemen.</p>
+
+<h2>Een kunstboeket als vaste basis</h2>
+<p>Een kunstboeket is er altijd, ook in drukke weken. Je hoeft er niet aan te denken en het ziet er op dag dertig nog net zo uit als op dag één. Zo wordt een mooie tafel een gewoonte in plaats van een uitzondering.</p>
+
+<h2>Laag en breed werkt het best</h2>
+<p>Op een eettafel wil je elkaar kunnen zien en een schaal kunnen doorgeven. Kies daarom een boeket dat niet te hoog is, in een lage vaas of een brede pot. Een langwerpige tafel kan ook twee kleinere boeketjes hebben in plaats van één grote.</p>
+
+<h2>Kleuren die rust geven</h2>
+<p>Wit, crème, zacht groen en een vleugje roze passen bij bijna elk servies. Wil je wat meer kleur, kies dan één tint die terugkomt in je servetten of kaarsen. Dan oogt de tafel als één geheel.</p>
+
+<h2>Waar je ze vindt</h2>
+<p>Kunstboeketten in verschillende maten en kleuren staan op <a href="https://bloomzy.nl/collectie/kunstboeketten">https://bloomzy.nl/collectie/kunstboeketten</a>. <a href="https://bloomzy.nl/">Bloomzy.nl</a> heeft ook bijpassende vazen, zodat je in één keer klaar bent.</p>
+""",
+    },
+    {
+        "slug": "herfst-in-huis-warme-kleuren-zijden-bloemen",
+        "title": "Herfst in huis: warme kleuren met zijden bloemen",
+        "cat": "thuis-en-sfeer",
+        "date": "2026-09-15",
+        "date_nl": "15 september 2026",
+        "read": 4,
+        "img": "art-huispakken.svg",
+        "excerpt": "Als de dagen korter worden, verlang je naar warmte binnen. Met een paar zijden bloemen in herfsttinten haal je dat gevoel je huis in.",
+        "body": """
+<p>September is de maand waarin je huis weer een beetje knusser mag worden. De plaid komt van zolder, de eerste kaarsen gaan aan en de kleuren mogen warmer. Bloemen in herfsttinten maken dat plaatje compleet.</p>
+
+<h2>Het herfstpalet</h2>
+<p>Denk aan roestbruin, oker, bordeaux en diep oranje. Dahlia's, rozen en chrysanten in die kleuren, met een paar takken of droogbloemen ertussen, geven meteen een herfstgevoel. Het mooie van zijden bloemen is dat je zo'n boeket het hele seizoen kunt laten staan.</p>
+
+<h2>Combineer met wat je al hebt</h2>
+<ul>
+<li>Een plaid of kussen in dezelfde tint als de bloemen.</li>
+<li>Een houten dienblad met een kaars en het boeket erop.</li>
+<li>Een vaas van aardewerk of mat glas in een aardetint.</li>
+</ul>
+
+<h2>Wisselen met de seizoenen</h2>
+<p>Heb je meer dan één boeket, dan kun je per seizoen wisselen. Berg het zomerboeket op in een doos, uit de zon en stofvrij, en haal het volgend jaar weer tevoorschijn. Zo verandert je huis mee met de seizoenen, zonder dat je steeds iets nieuws hoeft te kopen.</p>
+
+<h2>Inspiratie opdoen</h2>
+<p>Zijden boeketten in warme herfstkleuren vind je op <a href="https://bloomzy.nl/collectie/zijden-boeketten">https://bloomzy.nl/collectie/zijden-boeketten</a>. Voor kleinere boeketjes voor in de vensterbank of op het nachtkastje kun je kijken op <a href="https://bloomzy.nl/collectie/kunstboeketten">https://bloomzy.nl/collectie/kunstboeketten</a>.</p>
+""",
+    },
+    {
         "slug": "curacao-op-eigen-tempo-vakantie-zonder-haast",
         "title": "Curaçao op eigen tempo: een vakantie zonder haast",
         "cat": "mindful-leven",
